@@ -126,4 +126,113 @@ But beware, these actions are irreversible.
 :page_with_curl: **Disclaimer**
 
 This guide is born of experience, with no claims to theoretical purity. Take it with a grain of salt, a dash of humor, and the understanding that Git can be a fickle beast.
+
+#### :white_check_mark: Useful Git Commands
+
+#### :mag_right: Checking Status
+
+Want to see which files have changed?
+
+```bash
+git status
+```
+
+This command provides an overview of modified, staged, and untracked files.
+
+#### :bird: Creating a Branch
+
+Starting a new feature or fixing a bug?
+
+```bash
+git checkout -b new-branch-name
+```
+
+This command creates a new branch and switches to it in one step.
+
+#### :bookmark_tabs: Viewing Diffs
+
+Curious about the changes you've made?
+
+```bash
+git diff
+```
+
+This command shows the differences between your working directory and the index (staging area).
+
+#### :hourglass_flowing_sand: Stashing Changes
+
+Need to temporarily set aside changes?
+
+```bash
+git stash
+```
+
+This command saves your modifications and reverts the working directory to match the HEAD commit.
+
+#### :twisted_rightwards_arrows: Merging Branches
+
+Ready to integrate changes from one branch to another?
+
+```bash
+git merge branch-name
+```
+
+This command combines changes from the specified branch into the current branch.
+
+#### :arrows_counterclockwise: Rebasing Commits
+
+Want a cleaner commit history?
+
+```bash
+git rebase branch-name
+```
+
+This command applies commits from the current branch onto the tip of another branch.
+
+#### :file_folder: Removing Untracked Files
+
+Cleaning up untracked files?
+
+```bash
+git clean -n
+```
+
+This command shows a preview of untracked files that would be removed. Add `-f` to execute the clean operation.
+
+#### :mag_right: Searching Commit History
+
+Looking for specific commits?
+
+```bash
+git log --grep="keyword"
+```
+
+This command filters commit history based on the specified keyword.
+
+#### :arrows_counterclockwise: Cherry-Picking Commits
+
+Need to pick specific commits from one branch to another?
+
+```bash
+git cherry-pick commit-hash
+```
+
+This command applies the changes introduced by the specified commits.
+
+#### :twisted_rightwards_arrows: Interactive Rebase
+
+Fine-tuning commit history?
+
+```bash
+git rebase -i HEAD~n
+```
+
+This command allows you to interactively rebase back to a specified number of commits.
+
+
+But beware, these actions are irreversible.
+
+:page_with_curl: **Disclaimer**
+
+This guide is born of experience, with no claims to theoretical purity. Take it with a grain of salt, a dash of humor, and the understanding that Git can be a fickle beast.
 ``` ````
