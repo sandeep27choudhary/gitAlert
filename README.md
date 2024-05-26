@@ -121,12 +121,6 @@ git reset --hard origin/master
 git clean -d --force
 ```
 
-But beware, these actions are irreversible.
-
-:page_with_curl: **Disclaimer**
-
-This guide is born of experience, with no claims to theoretical purity. Take it with a grain of salt, a dash of humor, and the understanding that Git can be a fickle beast.
-
 #### :white_check_mark: Useful Git Commands
 
 #### :mag_right: Checking Status
